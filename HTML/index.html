@@ -4,11 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="/style.css">
   <title>Document</title>
-</head>
-<body>
-  <iframe src="introduzione.html" name="iframe_a" height="880px" width="100%" title="Iframe Example"></iframe>
   
+</head>
+  <body>
+
+    <div class="header">
+      <h1> (15) vita sulla terra  </h1>
+    </div>
+    
+    <div class="row">
+      <div class="col-3 menu">
+        <ul>
+    
+          <li><button onclick="agenda('agenda_2030.html')">AGENDA DEGLI OBBIETTIVI DEL 2030</button></li>
+    
+          <li><button onclick="obbiettivi('obbiettivi.html')">gli altri obbiettivi</button></li>
+          
+          <li><button onclick="traguardi('traguardi.html')">I traguardi</button></li>
+        
+        </ul>
+      </div>
+    
+      <div class="col-9">
+        <iframe id="frame1" src="introduzione.html" name="iframe_a" height="800px" width="100%" title="Iframe Example"></iframe>
+        
+      </div>
+    </div>
+    
+    
 
 </body>
 </html>
