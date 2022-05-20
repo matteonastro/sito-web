@@ -1,7 +1,7 @@
 button {
   display: inline-block;
   padding: 15px 25px;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -34,7 +34,7 @@ button:active {
     padding: 15px;
   }
   
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 400px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -70,8 +70,10 @@ button:active {
   
   .header {
     background-color: #57cc33;
-    color: #ffffff;
+    color: whitesmoke;
     padding: 15px;
+    
   }
+
   
   
