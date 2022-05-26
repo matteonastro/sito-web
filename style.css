@@ -71,7 +71,10 @@ button:active {
   .header {
     background-color: #57cc33;
     color: whitesmoke;
-    padding: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    
     
   }
  
