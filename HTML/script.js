@@ -1,7 +1,7 @@
 function agenda(url){
     document.getElementById("frame1").src=url
 }
-function obbiettivi(url){
+function obiettivi(url){
     document.getElementById("frame1").src=url
 }
 function traguardi(url){
